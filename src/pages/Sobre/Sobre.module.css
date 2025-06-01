@@ -1,0 +1,59 @@
+.retratoImagem {
+    background-color: rgb(196, 196, 209);
+    border-radius: 100px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 100px;
+    outline: 5px solid black;
+}
+
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-around;
+    gap: 2.5rem;
+    
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.bioTexto h2, p {
+    margin-bottom: 1rem;
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.icones img {
+    width: 85px;
+}
