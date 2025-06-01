@@ -7,6 +7,7 @@ function Paga404() {
             <div className={styles.textos}>
                 <span className={styles.texto_grande}>404</span> <br />
                 <strong className={styles.texto_vermelho}>Página Não Localizada!</strong>
+                <h2>Clique em algum link da navegação para explorar o site, caso tenha acessado pelo GitHub Pages.</h2>
             </div>
         </>
     )
