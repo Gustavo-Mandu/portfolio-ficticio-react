@@ -8,10 +8,10 @@ import PageBase from "./pages/PageBase";
 
 function AppRoutes() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio-ficticio-react">
             <Routes>
                 <Route path='/' element={<PageBase /> }>
-                    <Route path='/portfolio-ficticio-react' element={<Home />}> </Route>
+                    <Route path='/' element={<Home />}> </Route>
                     <Route path="/sobre" element={<Sobre />}> </Route>
                     <Route path="/projetos" element={<Projetos />}> </Route>
                     <Route path="/contatos" element={<Contatos />}> </Route>
