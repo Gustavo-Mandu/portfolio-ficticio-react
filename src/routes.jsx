@@ -11,7 +11,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<PageBase /> }>
-                    <Route path='/' element={<Home />}> </Route>
+                    <Route path='/portfolio-ficticio-react' element={<Home />}> </Route>
                     <Route path="/sobre" element={<Sobre />}> </Route>
                     <Route path="/projetos" element={<Projetos />}> </Route>
                     <Route path="/contatos" element={<Contatos />}> </Route>
